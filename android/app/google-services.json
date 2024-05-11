@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "207912782011",
+    "project_id": "chat-app-flutter-258",
+    "storage_bucket": "chat-app-flutter-258.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207912782011:android:9bb4639b139d00401c019e",
+        "android_client_info": {
+          "package_name": "com.example.chat_app_flutter_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwFi1tp67qFdPIf7A-aB6MduOj-luurOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207912782011:android:335ea7a5763d86261c019e",
+        "android_client_info": {
+          "package_name": "com.example.fala_amigo_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwFi1tp67qFdPIf7A-aB6MduOj-luurOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
