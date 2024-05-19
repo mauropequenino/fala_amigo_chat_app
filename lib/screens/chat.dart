@@ -1,3 +1,5 @@
+import 'package:fala_amigo_chat_app/widgets/chat_message.dart';
+import 'package:fala_amigo_chat_app/widgets/new_message.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
@@ -20,11 +22,14 @@ class ChatScreen extends StatelessWidget {
           )
         ],
       ),
-      body: Center(
-        child: Text(
-          'Logged in'
-        )
-      ),
+      body: Column(
+        children: [
+          Expanded(
+            child: ChatMessage(),
+          ),
+          NewMessage()
+        ],
+      )
     );
   }
 }
